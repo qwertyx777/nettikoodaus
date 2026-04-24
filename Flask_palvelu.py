@@ -19,6 +19,7 @@ def nayta_tulos():
 @app.route("/seikkailu")
 def nayta_laatikko_sivu():
     return """
+        <img src="/static/kivakuva.jpeg">
         <p>Laita tähän kaksi jännittävää lukua:
         <form action="/tulos" enctype="application/x-www-urlencoded">
         Eka luku: <input name=luku1 type=text> <br>
